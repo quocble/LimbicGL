@@ -8,12 +8,9 @@
 #define LIMBICGL_GAME_GAME_H_
 
 #include <performancemonitor/codingguides.h>
+#import "Drawable3D.h"
 
-class GLProgram;
-@class TextureManager;
-@protocol Texture;
-
-class Game {
+class Game : Drawable3D {
  public:
   Game();
   ~Game();
@@ -22,15 +19,14 @@ class Game {
   void InitGFX();
   void Pause();
   void Resume();
+    
  private:
   double time_;
   double last_update_;
   bool paused_;
   bool gfx_initialized_;
-  GLProgram *program_;
-  TextureManager *texture_manager_;
-  id<Texture> textures_[2];
-  DISALLOW_COPY_AND_ASSIGN(Game);
+
+    DISALLOW_COPY_AND_ASSIGN(Game);
 };
 
 #endif  // LIMBICGL_GAME_GAME_H_

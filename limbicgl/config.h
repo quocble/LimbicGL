@@ -15,7 +15,7 @@
 #define THREADEDDRIVER 2
 #define THREADEDGCDDRIVER 3
 // Specifies with Driver to use
-#define DRIVER THREADEDGCDDRIVER
+#define DRIVER GCDDRIVER
 
 // Toggles between synced and async asset loading
 #define ASYNC_ASSET_LOADING

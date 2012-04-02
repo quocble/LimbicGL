@@ -26,10 +26,10 @@
   [driver setLayer:layer];
 }
 
-- (id)init {
+- (id)initWithGame: (Game*) game_ {
   self = [super init];
   if (self) {
-    game_ = new Game();
+      game = game_;
     rendertarget = [[RenderTarget alloc] init];
 #if DRIVER == GCDDRIVER
     driver = [[GCDDriver alloc] initWithRenderTarget:rendertarget andGame:game_];
@@ -45,7 +45,7 @@
 }
 
 - (void) dealloc {
-    delete game_;
+    delete game;
     [driver teardown];
     [(NSObject*)driver release];
     [rendertarget release];
@@ -61,7 +61,7 @@
 }
 
 - (Game*)game {
-  return game_;
+  return game;
 }
 
 @end

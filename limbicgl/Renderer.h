@@ -20,7 +20,7 @@ class Game;
 
 @interface Renderer : NSObject {
 @private
-    Game *game_;
+    Game *game;
     RenderTarget *rendertarget;
     id<Driver> driver;
 }

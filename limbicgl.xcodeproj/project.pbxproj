@@ -37,6 +37,26 @@
 		9FED698513A877E90022C002 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FED698313A877E90022C002 /* MainWindow-iPad.xib */; };
 		9FED698A13A87B260022C002 /* RenderTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FED698913A87B260022C002 /* RenderTarget.m */; };
 		9FEF560A13A82EC600C9A484 /* game.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9FEF560813A82EC600C9A484 /* game.mm */; };
+		AB6C525C1526C2F80056EE84 /* PVRTBoneBatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52301526C2F80056EE84 /* PVRTBoneBatch.cpp */; };
+		AB6C525D1526C2F80056EE84 /* PVRTDecompress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52331526C2F80056EE84 /* PVRTDecompress.cpp */; };
+		AB6C525E1526C2F80056EE84 /* PVRTError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52351526C2F80056EE84 /* PVRTError.cpp */; };
+		AB6C525F1526C2F80056EE84 /* PVRTFixedPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52371526C2F80056EE84 /* PVRTFixedPoint.cpp */; };
+		AB6C52601526C2F80056EE84 /* PVRTGeometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52391526C2F80056EE84 /* PVRTGeometry.cpp */; };
+		AB6C52611526C2F80056EE84 /* PVRTMatrixF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C523E1526C2F80056EE84 /* PVRTMatrixF.cpp */; };
+		AB6C52621526C2F80056EE84 /* PVRTMatrixX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C523F1526C2F80056EE84 /* PVRTMatrixX.cpp */; };
+		AB6C52631526C2F80056EE84 /* PVRTMisc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52411526C2F80056EE84 /* PVRTMisc.cpp */; };
+		AB6C52641526C2F80056EE84 /* PVRTModelPOD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52431526C2F80056EE84 /* PVRTModelPOD.cpp */; };
+		AB6C52651526C2F80056EE84 /* PVRTPFXParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52461526C2F80056EE84 /* PVRTPFXParser.cpp */; };
+		AB6C52661526C2F80056EE84 /* PVRTQuaternionF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52491526C2F80056EE84 /* PVRTQuaternionF.cpp */; };
+		AB6C52671526C2F80056EE84 /* PVRTQuaternionX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C524A1526C2F80056EE84 /* PVRTQuaternionX.cpp */; };
+		AB6C52681526C2F80056EE84 /* PVRTResourceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C524B1526C2F80056EE84 /* PVRTResourceFile.cpp */; };
+		AB6C52691526C2F80056EE84 /* PVRTShadowVol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C524D1526C2F80056EE84 /* PVRTShadowVol.cpp */; };
+		AB6C526A1526C2F80056EE84 /* PVRTString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52501526C2F80056EE84 /* PVRTString.cpp */; };
+		AB6C526B1526C2F80056EE84 /* PVRTTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52521526C2F80056EE84 /* PVRTTexture.cpp */; };
+		AB6C526C1526C2F80056EE84 /* PVRTTrans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52541526C2F80056EE84 /* PVRTTrans.cpp */; };
+		AB6C526D1526C2F80056EE84 /* PVRTTriStrip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52561526C2F80056EE84 /* PVRTTriStrip.cpp */; };
+		AB6C526E1526C2F80056EE84 /* PVRTVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C52581526C2F80056EE84 /* PVRTVector.cpp */; };
+		AB6C526F1526C2F80056EE84 /* PVRTVertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB6C525A1526C2F80056EE84 /* PVRTVertex.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +113,61 @@
 		9FEF560613A82C5700C9A484 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		9FEF560813A82EC600C9A484 /* game.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = game.mm; sourceTree = "<group>"; };
 		9FEF560913A82EC600C9A484 /* game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		AB6C52221526C2510056EE84 /* Drawable3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawable3D.h; sourceTree = "<group>"; };
+		AB6C52231526C2510056EE84 /* Drawable3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = Drawable3D.cpp; sourceTree = "<group>"; };
+		AB6C52241526C2510056EE84 /* Mesh3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mesh3D.h; sourceTree = "<group>"; };
+		AB6C52251526C2510056EE84 /* Mesh3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = Mesh3D.cpp; sourceTree = "<group>"; };
+		AB6C52261526C2510056EE84 /* Sprite3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sprite3D.h; sourceTree = "<group>"; };
+		AB6C52271526C2510056EE84 /* Sprite3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = Sprite3D.cpp; sourceTree = "<group>"; };
+		AB6C52281526C2510056EE84 /* TextureManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = TextureManager.cpp; sourceTree = "<group>"; };
+		AB6C52291526C2510056EE84 /* TextureManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
+		AB6C522A1526C2510056EE84 /* Tweeners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tweeners.h; sourceTree = "<group>"; };
+		AB6C522B1526C2510056EE84 /* Tweeners.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = Tweeners.cpp; sourceTree = "<group>"; };
+		AB6C522F1526C2F80056EE84 /* PVRTBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTBackground.h; sourceTree = "<group>"; };
+		AB6C52301526C2F80056EE84 /* PVRTBoneBatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTBoneBatch.cpp; sourceTree = "<group>"; };
+		AB6C52311526C2F80056EE84 /* PVRTBoneBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTBoneBatch.h; sourceTree = "<group>"; };
+		AB6C52321526C2F80056EE84 /* PVRTContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTContext.h; sourceTree = "<group>"; };
+		AB6C52331526C2F80056EE84 /* PVRTDecompress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTDecompress.cpp; sourceTree = "<group>"; };
+		AB6C52341526C2F80056EE84 /* PVRTDecompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTDecompress.h; sourceTree = "<group>"; };
+		AB6C52351526C2F80056EE84 /* PVRTError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTError.cpp; sourceTree = "<group>"; };
+		AB6C52361526C2F80056EE84 /* PVRTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTError.h; sourceTree = "<group>"; };
+		AB6C52371526C2F80056EE84 /* PVRTFixedPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTFixedPoint.cpp; sourceTree = "<group>"; };
+		AB6C52381526C2F80056EE84 /* PVRTFixedPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTFixedPoint.h; sourceTree = "<group>"; };
+		AB6C52391526C2F80056EE84 /* PVRTGeometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTGeometry.cpp; sourceTree = "<group>"; };
+		AB6C523A1526C2F80056EE84 /* PVRTGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTGeometry.h; sourceTree = "<group>"; };
+		AB6C523B1526C2F80056EE84 /* PVRTGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTGlobal.h; sourceTree = "<group>"; };
+		AB6C523C1526C2F80056EE84 /* PVRTMathTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTMathTable.h; sourceTree = "<group>"; };
+		AB6C523D1526C2F80056EE84 /* PVRTMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTMatrix.h; sourceTree = "<group>"; };
+		AB6C523E1526C2F80056EE84 /* PVRTMatrixF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTMatrixF.cpp; sourceTree = "<group>"; };
+		AB6C523F1526C2F80056EE84 /* PVRTMatrixX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTMatrixX.cpp; sourceTree = "<group>"; };
+		AB6C52401526C2F80056EE84 /* PVRTMemoryFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTMemoryFileSystem.h; sourceTree = "<group>"; };
+		AB6C52411526C2F80056EE84 /* PVRTMisc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTMisc.cpp; sourceTree = "<group>"; };
+		AB6C52421526C2F80056EE84 /* PVRTMisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTMisc.h; sourceTree = "<group>"; };
+		AB6C52431526C2F80056EE84 /* PVRTModelPOD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTModelPOD.cpp; sourceTree = "<group>"; };
+		AB6C52441526C2F80056EE84 /* PVRTModelPOD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTModelPOD.h; sourceTree = "<group>"; };
+		AB6C52451526C2F80056EE84 /* PVRTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTools.h; sourceTree = "<group>"; };
+		AB6C52461526C2F80056EE84 /* PVRTPFXParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTPFXParser.cpp; sourceTree = "<group>"; };
+		AB6C52471526C2F80056EE84 /* PVRTPFXParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTPFXParser.h; sourceTree = "<group>"; };
+		AB6C52481526C2F80056EE84 /* PVRTQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTQuaternion.h; sourceTree = "<group>"; };
+		AB6C52491526C2F80056EE84 /* PVRTQuaternionF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTQuaternionF.cpp; sourceTree = "<group>"; };
+		AB6C524A1526C2F80056EE84 /* PVRTQuaternionX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTQuaternionX.cpp; sourceTree = "<group>"; };
+		AB6C524B1526C2F80056EE84 /* PVRTResourceFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTResourceFile.cpp; sourceTree = "<group>"; };
+		AB6C524C1526C2F80056EE84 /* PVRTResourceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTResourceFile.h; sourceTree = "<group>"; };
+		AB6C524D1526C2F80056EE84 /* PVRTShadowVol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTShadowVol.cpp; sourceTree = "<group>"; };
+		AB6C524E1526C2F80056EE84 /* PVRTShadowVol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTShadowVol.h; sourceTree = "<group>"; };
+		AB6C524F1526C2F80056EE84 /* PVRTSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTSingleton.h; sourceTree = "<group>"; };
+		AB6C52501526C2F80056EE84 /* PVRTString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTString.cpp; sourceTree = "<group>"; };
+		AB6C52511526C2F80056EE84 /* PVRTString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTString.h; sourceTree = "<group>"; };
+		AB6C52521526C2F80056EE84 /* PVRTTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTTexture.cpp; sourceTree = "<group>"; };
+		AB6C52531526C2F80056EE84 /* PVRTTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTTexture.h; sourceTree = "<group>"; };
+		AB6C52541526C2F80056EE84 /* PVRTTrans.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTTrans.cpp; sourceTree = "<group>"; };
+		AB6C52551526C2F80056EE84 /* PVRTTrans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTTrans.h; sourceTree = "<group>"; };
+		AB6C52561526C2F80056EE84 /* PVRTTriStrip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTTriStrip.cpp; sourceTree = "<group>"; };
+		AB6C52571526C2F80056EE84 /* PVRTTriStrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTTriStrip.h; sourceTree = "<group>"; };
+		AB6C52581526C2F80056EE84 /* PVRTVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTVector.cpp; sourceTree = "<group>"; };
+		AB6C52591526C2F80056EE84 /* PVRTVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTVector.h; sourceTree = "<group>"; };
+		AB6C525A1526C2F80056EE84 /* PVRTVertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTVertex.cpp; sourceTree = "<group>"; };
+		AB6C525B1526C2F80056EE84 /* PVRTVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTVertex.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				9F97063E13A7E66100EDA5B8 /* performancemonitor */,
+				AB6C522C1526C2EC0056EE84 /* external */,
 				9FBA944213A7E2970080071B /* limbicgl */,
 				9FBA943713A7E2970080071B /* Frameworks */,
 				9FBA943513A7E2970080071B /* Products */,
@@ -175,6 +251,7 @@
 		9FBA944213A7E2970080071B /* limbicgl */ = {
 			isa = PBXGroup;
 			children = (
+				AB6C52201526C24A0056EE84 /* core */,
 				9F5E8EC913AAB23400413A91 /* textures */,
 				9FED698713A87A0E0022C002 /* drivers */,
 				9FED698213A877E80022C002 /* iPad */,
@@ -237,10 +314,95 @@
 		9FEF560713A82EC600C9A484 /* game */ = {
 			isa = PBXGroup;
 			children = (
-				9FEF560813A82EC600C9A484 /* game.mm */,
 				9FEF560913A82EC600C9A484 /* game.h */,
+				9FEF560813A82EC600C9A484 /* game.mm */,
 			);
 			path = game;
+			sourceTree = "<group>";
+		};
+		AB6C52201526C24A0056EE84 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C52221526C2510056EE84 /* Drawable3D.h */,
+				AB6C52231526C2510056EE84 /* Drawable3D.cpp */,
+				AB6C52241526C2510056EE84 /* Mesh3D.h */,
+				AB6C52251526C2510056EE84 /* Mesh3D.cpp */,
+				AB6C52261526C2510056EE84 /* Sprite3D.h */,
+				AB6C52271526C2510056EE84 /* Sprite3D.cpp */,
+				AB6C52281526C2510056EE84 /* TextureManager.cpp */,
+				AB6C52291526C2510056EE84 /* TextureManager.h */,
+				AB6C522A1526C2510056EE84 /* Tweeners.h */,
+				AB6C522B1526C2510056EE84 /* Tweeners.cpp */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		AB6C522C1526C2EC0056EE84 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C522D1526C2F80056EE84 /* PowerVR */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		AB6C522D1526C2F80056EE84 /* PowerVR */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C522E1526C2F80056EE84 /* Tools */,
+			);
+			path = PowerVR;
+			sourceTree = "<group>";
+		};
+		AB6C522E1526C2F80056EE84 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AB6C522F1526C2F80056EE84 /* PVRTBackground.h */,
+				AB6C52301526C2F80056EE84 /* PVRTBoneBatch.cpp */,
+				AB6C52311526C2F80056EE84 /* PVRTBoneBatch.h */,
+				AB6C52321526C2F80056EE84 /* PVRTContext.h */,
+				AB6C52331526C2F80056EE84 /* PVRTDecompress.cpp */,
+				AB6C52341526C2F80056EE84 /* PVRTDecompress.h */,
+				AB6C52351526C2F80056EE84 /* PVRTError.cpp */,
+				AB6C52361526C2F80056EE84 /* PVRTError.h */,
+				AB6C52371526C2F80056EE84 /* PVRTFixedPoint.cpp */,
+				AB6C52381526C2F80056EE84 /* PVRTFixedPoint.h */,
+				AB6C52391526C2F80056EE84 /* PVRTGeometry.cpp */,
+				AB6C523A1526C2F80056EE84 /* PVRTGeometry.h */,
+				AB6C523B1526C2F80056EE84 /* PVRTGlobal.h */,
+				AB6C523C1526C2F80056EE84 /* PVRTMathTable.h */,
+				AB6C523D1526C2F80056EE84 /* PVRTMatrix.h */,
+				AB6C523E1526C2F80056EE84 /* PVRTMatrixF.cpp */,
+				AB6C523F1526C2F80056EE84 /* PVRTMatrixX.cpp */,
+				AB6C52401526C2F80056EE84 /* PVRTMemoryFileSystem.h */,
+				AB6C52411526C2F80056EE84 /* PVRTMisc.cpp */,
+				AB6C52421526C2F80056EE84 /* PVRTMisc.h */,
+				AB6C52431526C2F80056EE84 /* PVRTModelPOD.cpp */,
+				AB6C52441526C2F80056EE84 /* PVRTModelPOD.h */,
+				AB6C52451526C2F80056EE84 /* PVRTools.h */,
+				AB6C52461526C2F80056EE84 /* PVRTPFXParser.cpp */,
+				AB6C52471526C2F80056EE84 /* PVRTPFXParser.h */,
+				AB6C52481526C2F80056EE84 /* PVRTQuaternion.h */,
+				AB6C52491526C2F80056EE84 /* PVRTQuaternionF.cpp */,
+				AB6C524A1526C2F80056EE84 /* PVRTQuaternionX.cpp */,
+				AB6C524B1526C2F80056EE84 /* PVRTResourceFile.cpp */,
+				AB6C524C1526C2F80056EE84 /* PVRTResourceFile.h */,
+				AB6C524D1526C2F80056EE84 /* PVRTShadowVol.cpp */,
+				AB6C524E1526C2F80056EE84 /* PVRTShadowVol.h */,
+				AB6C524F1526C2F80056EE84 /* PVRTSingleton.h */,
+				AB6C52501526C2F80056EE84 /* PVRTString.cpp */,
+				AB6C52511526C2F80056EE84 /* PVRTString.h */,
+				AB6C52521526C2F80056EE84 /* PVRTTexture.cpp */,
+				AB6C52531526C2F80056EE84 /* PVRTTexture.h */,
+				AB6C52541526C2F80056EE84 /* PVRTTrans.cpp */,
+				AB6C52551526C2F80056EE84 /* PVRTTrans.h */,
+				AB6C52561526C2F80056EE84 /* PVRTTriStrip.cpp */,
+				AB6C52571526C2F80056EE84 /* PVRTTriStrip.h */,
+				AB6C52581526C2F80056EE84 /* PVRTVector.cpp */,
+				AB6C52591526C2F80056EE84 /* PVRTVector.h */,
+				AB6C525A1526C2F80056EE84 /* PVRTVertex.cpp */,
+				AB6C525B1526C2F80056EE84 /* PVRTVertex.h */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +489,26 @@
 				9F5E8EDB13AAE43F00413A91 /* SyncedTexture.mm in Sources */,
 				9F5E8EE013AB2AD400413A91 /* AsyncTexture.mm in Sources */,
 				9F3EFF8C13B82BF400F4EEC3 /* ThreadedGCDDriver.mm in Sources */,
+				AB6C525C1526C2F80056EE84 /* PVRTBoneBatch.cpp in Sources */,
+				AB6C525D1526C2F80056EE84 /* PVRTDecompress.cpp in Sources */,
+				AB6C525E1526C2F80056EE84 /* PVRTError.cpp in Sources */,
+				AB6C525F1526C2F80056EE84 /* PVRTFixedPoint.cpp in Sources */,
+				AB6C52601526C2F80056EE84 /* PVRTGeometry.cpp in Sources */,
+				AB6C52611526C2F80056EE84 /* PVRTMatrixF.cpp in Sources */,
+				AB6C52621526C2F80056EE84 /* PVRTMatrixX.cpp in Sources */,
+				AB6C52631526C2F80056EE84 /* PVRTMisc.cpp in Sources */,
+				AB6C52641526C2F80056EE84 /* PVRTModelPOD.cpp in Sources */,
+				AB6C52651526C2F80056EE84 /* PVRTPFXParser.cpp in Sources */,
+				AB6C52661526C2F80056EE84 /* PVRTQuaternionF.cpp in Sources */,
+				AB6C52671526C2F80056EE84 /* PVRTQuaternionX.cpp in Sources */,
+				AB6C52681526C2F80056EE84 /* PVRTResourceFile.cpp in Sources */,
+				AB6C52691526C2F80056EE84 /* PVRTShadowVol.cpp in Sources */,
+				AB6C526A1526C2F80056EE84 /* PVRTString.cpp in Sources */,
+				AB6C526B1526C2F80056EE84 /* PVRTTexture.cpp in Sources */,
+				AB6C526C1526C2F80056EE84 /* PVRTTrans.cpp in Sources */,
+				AB6C526D1526C2F80056EE84 /* PVRTTriStrip.cpp in Sources */,
+				AB6C526E1526C2F80056EE84 /* PVRTVector.cpp in Sources */,
+				AB6C526F1526C2F80056EE84 /* PVRTVertex.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
